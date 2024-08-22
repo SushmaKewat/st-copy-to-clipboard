@@ -37,7 +37,7 @@ def st_copy_to_clipboard(
     key : str or None
         An optional key that uniquely identifies the component.
     theme: str
-        Returns the current theme of the streamlit app.
+        Set the current theme for the button.
     """
     component_value = _component_func(
         key=key,
